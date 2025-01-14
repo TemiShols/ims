@@ -21,8 +21,9 @@ Build the Docker Containers: In your terminal (Command Prompt, PowerShell, or a 
 
 Copy code
 docker-compose up --build
-This command will:
 
+
+This command will:
 Build the Docker images using the Dockerfile.
 Set up and start the containers defined in docker-compose.yml (including the ims-web, ims-celery, ims-postgres, and ims-redis services).
 
