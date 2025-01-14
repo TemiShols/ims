@@ -33,3 +33,10 @@ Access the IMS Web App:
 
 Open your browser and go to http://localhost:8001/swagger/. This should display the web application running on the Docker container.
 The api will be running on port 8001 on your local machine.
+
+Celery tasks can be triggered by signals that detect certain conditions in the database. For example, when stock levels for a product drop below 10, a Celery task to send an alert mail is triggered and also background task to process csv.
+
+Challenges:
+unknown supplier performance matrix.
+have no csv app to test the endpoint
+heroku is a paid app same with every other,while my card is expired to put for test.iwould have used heroku or hosted the container on azure web or kubernetes
