@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="hx-on::after-request" />
+            <item index="1" class="java.lang.String" itemvalue="hx-post" />
+            <item index="2" class="java.lang.String" itemvalue="hx-target" />
+            <item index="3" class="java.lang.String" itemvalue="hx-swap" />
+            <item index="4" class="java.lang.String" itemvalue="hx-delete" />
+            <item index="5" class="java.lang.String" itemvalue="hx-on:delete-todo" />
+            <item index="6" class="java.lang.String" itemvalue="hx-headers" />
+            <item index="7" class="java.lang.String" itemvalue="hx-get" />
+            <item index="8" class="java.lang.String" itemvalue="hx-post-body" />
+            <item index="9" class="java.lang.String" itemvalue="hx-encoding" />
+            <item index="10" class="java.lang.String" itemvalue="hx-indicator" />
+            <item index="11" class="java.lang.String" itemvalue="hx-params" />
+            <item index="12" class="java.lang.String" itemvalue="hx-trigger" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="1" class="java.lang.String" itemvalue="whitenoise" />
+            <item index="2" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="3" class="java.lang.String" itemvalue="urllib3" />
+            <item index="4" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="5" class="java.lang.String" itemvalue="langchain" />
+            <item index="6" class="java.lang.String" itemvalue="langsmith" />
+            <item index="7" class="java.lang.String" itemvalue="dataclasses-json" />
+            <item index="8" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="9" class="java.lang.String" itemvalue="pypdf" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

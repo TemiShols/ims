@@ -1,0 +1,9 @@
+celery==5.4.0
+Django
+django-celery-results==2.5.1
+djangorestframework==3.15.2
+drf-yasg==1.21.8
+redis==5.2.1
+psycopg2-binary
+dj-database-url
+
